@@ -1,0 +1,27 @@
+
+header{
+    width: 100vw;
+    height: 10vh;
+    background-color: aqua;
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+nav{
+    display: flex;
+    align-items: center;
+}
+
+a{
+    text-decoration: none;
+}
+
+li{
+    list-style: none;
+}
+
+ul{
+    display: flex;
+    gap: 10px;
+}
