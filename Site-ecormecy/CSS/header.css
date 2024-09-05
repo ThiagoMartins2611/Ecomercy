@@ -1,11 +1,30 @@
 
+
 header{
     width: 100vw;
     height: 10vh;
-    background-color: aqua;
+    background-color: var(--color-Primaria);
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-around;
+    align-items: center;
 
+}
+
+.LogoEtitulo{
+    display: flex;
+    align-items: center;
+}
+.Logo{
+    background-color: var(--color-Secundaria);
+    width: 40px;
+    height: 40px;
+}
+
+input[type=text]{
+    width: 50vw;
+    height: 3vh;
+    border: solid 3px var(--color-Terceiraria);
+    border-radius: 10px;
 }
 
 nav{
@@ -15,6 +34,7 @@ nav{
 
 a{
     text-decoration: none;
+    color: var(--color-Letra);
 }
 
 li{
