@@ -12,6 +12,14 @@ body{
     justify-content: space-between;
 }
 
+:root{
+    --color-Primaria: cyan;
+    --color-Secundaria: blue;
+    --color-Terceiraria: yellow;
+
+    --color-letra: black;
+}
+
 
 @font-face {
     font-family: "FOT-Yuruka Std";
