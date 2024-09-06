@@ -1,9 +1,14 @@
-html, body{
-    width: 100%;
-    height: 100vh;
+*{
     margin: 0;
     padding: 0;
     border: 0;
+
+    box-sizing: border-box;
+}
+
+html, body{
+    width: 100%;
+    height: 100vh;
 }
 
 body{
@@ -15,7 +20,10 @@ body{
 :root{
     --color-Primaria: cyan;
     --color-Secundaria: blue;
-    --color-Terceiraria: yellow;
+    --color-Terceiraria: rgb(255, 0, 0);
+    --color-Quartaria: rgb(173, 173, 173);
+
+    --color-primariaMaisClara: rgb(109, 255, 255);
 
     --color-letra: black;
 }
