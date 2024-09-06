@@ -1,13 +1,12 @@
 
-
 header{
     width: 100vw;
     height: 10vh;
     background-color: var(--color-Primaria);
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
     align-items: center;
-
+    
 }
 
 .LogoEtitulo{
@@ -20,28 +19,94 @@ header{
     height: 40px;
 }
 
-input[type=text]{
-    width: 50vw;
+#CaixaPes{
+    width: 100%; 
+    height: 100%; 
+    border-radius: 7px;
+    outline: none;
+    transition: 0.5s;
+    top: 0; 
+    left: 0;
+    border-bottom-left-radius: 0;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+}
+
+.CaixaPesquisa{
+    width: 40vw;
     height: 3vh;
     border: solid 3px var(--color-Terceiraria);
     border-radius: 10px;
+    border-top-right-radius: 0;
+    border-bottom-left-radius: 0;
+    box-shadow: 1px 1px 10px;
+    outline: none;
+    transition: 0.5s;
+    display: flex;
 }
 
-nav{
-    display: flex;
-    align-items: center;
+.CaixaPesquisa:hover{
+    box-shadow: 2px 2px 2px;
 }
+
+
+
+#lupa{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   background-color: var(--color-Quartaria);
+
+   border-bottom-right-radius: 8px;
+
+}
+#lupa:hover{
+    cursor: pointer;
+}
+
+#LupaSvg{
+    width: 4vw;
+    height: 3vh;
+}
+   
 
 a{
     text-decoration: none;
     color: var(--color-Letra);
+    display: flex;
+    align-items: center;
+}
+
+#ul-nav a{
+    transition: 0.2s;
+}
+#ul-nav a:hover{
+    transform: translateY(-2px);
+    border-radius: 10px;
+    box-shadow: 0 2px 2px;
+    background-color: var(--color-primariaMaisClara);
+}
+
+#ul-nav a p{
+    padding: 6px;
+}
+
+.navSimbols{
+    height: 2vh;
+    width: 2vw;
 }
 
 li{
     list-style: none;
+    display: flex;
+   
 }
 
 ul{
     display: flex;
-    gap: 10px;
+    padding: 0;
+    gap: 2vw;
 }
+
+
+
