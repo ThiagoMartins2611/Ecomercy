@@ -4,6 +4,7 @@
     border: 0;
 
     box-sizing: border-box;
+    color: var(--color-letra);
 }
 
 html, body{
@@ -18,14 +19,14 @@ body{
 }
 
 :root{
-    --color-Primaria: cyan;
-    --color-Secundaria: blue;
-    --color-Terceiraria: rgb(255, 0, 0);
+    --color-Primaria:  #0C0E3F;
+    --color-Secundaria: #181F52;
+    --color-Terceiraria: #0D113F;
     --color-Quartaria: rgb(173, 173, 173);
 
-    --color-primariaMaisClara: rgb(109, 255, 255);
+    --color-primariaMaisClara: #31336b;
 
-    --color-letra: black;
+    --color-letra: #FFF653;
 }
 
 

@@ -1,22 +1,67 @@
 
 header{
+    display: flex;
+    flex-direction: column;
     width: 100vw;
-    height: 10vh;
+    height: 13vh;
+}
+
+header svg{
+    fill: var(--color-letra);
+}
+
+.realHeader{
+    height: 70%;
     background-color: var(--color-Primaria);
     display: flex;
     justify-content: space-evenly;
     align-items: center;
+}
+
+nav{
+    height: 30%;
+    background-color: var(--color-Secundaria);
+    align-items: center;
+    display: flex;
+    border-top: solid 1px black;
     
 }
+.menuItens{
+    height: 100%;
+    border-left: solid 1px black;
+    flex: 1;
+    display: flex; 
+    align-items: center; 
+    justify-content: center; 
+    transition: 0.5s;
+
+}
+
+.menuItens:hover{
+    flex: 2;
+    background-color: var(--color-Quartaria);
+}
+
+#M1{
+    border: 0;
+}
+
 
 .LogoEtitulo{
     display: flex;
     align-items: center;
 }
 .Logo{
-    background-color: var(--color-Secundaria);
-    width: 40px;
-    height: 40px;
+   display: flex;
+}
+
+.Logo svg{
+    width: 100%;
+    height: 10vh;
+}
+
+.LogoEtitulo h1{
+    font-size: 150%;
 }
 
 #CaixaPes{
@@ -77,23 +122,24 @@ a{
     align-items: center;
 }
 
-#ul-nav a{
+.ul-nav a{
     transition: 0.2s;
 }
-#ul-nav a:hover{
+.ul-nav a:hover{
     transform: translateY(-2px);
     border-radius: 10px;
-    box-shadow: 0 2px 2px;
+    box-shadow: 0 2px 2px var(--color-Quartaria);
     background-color: var(--color-primariaMaisClara);
 }
 
-#ul-nav a p{
+.ul-nav a p{
     padding: 6px;
 }
 
 .navSimbols{
     height: 2vh;
     width: 2vw;
+    
 }
 
 li{
@@ -108,5 +154,52 @@ ul{
     gap: 2vw;
 }
 
+.menuLink{
+    display: none;
+}
+
+#menuLinkSvg{
+    width: 4vw;
+    height: 4vh;
+}
 
 
+@media screen and (max-width: 930px) {
+
+    body, html{
+        overflow: hidden;
+    }
+ 
+    .ul-nav{
+      position: absolute;
+      top: 8vh;
+      right: 0;
+      width: 50vw;
+      height: 50vh;
+      background-color: var(--color-Primaria);
+      flex-direction: column;
+      align-items: center;
+      justify-content: space-around;
+      transform: translateX(100%);
+      
+      transition: transform 0.5s;
+    }
+
+    .ul-nav li{
+        margin-left: 0;
+       
+    }
+
+ 
+        
+
+    .menuLink{
+        display: flex;
+        cursor: pointer;
+    }
+
+    .ul-nav.active{
+        transform: translateX(0);
+    }
+    
+}
