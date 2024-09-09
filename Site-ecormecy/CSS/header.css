@@ -26,25 +26,7 @@ nav{
     border-top: solid 1px black;
     
 }
-.menuItens{
-    height: 100%;
-    border-left: solid 1px black;
-    flex: 1;
-    display: flex; 
-    align-items: center; 
-    justify-content: center; 
-    transition: 0.5s;
 
-}
-
-.menuItens:hover{
-    flex: 2;
-    background-color: var(--color-Quartaria);
-}
-
-#M1{
-    border: 0;
-}
 
 
 .LogoEtitulo{
@@ -163,6 +145,73 @@ ul{
     height: 4vh;
 }
 
+.menuItens{
+    height: 100%;
+    border: solid 1px black;
+    border-right: 0;
+    flex: 1;
+    display: flex; 
+    align-items: center; 
+    justify-content: center; 
+    transition: 0.5s;
+
+    list-style-type: none; /*Remove o marcador das listas*/
+    margin: 0;
+    padding: 0;
+
+    position: relative;
+}
+
+.menuItens:hover{
+    flex: 1.2;
+    background-color: var(--color-Quartaria);
+}
+
+
+.menuItens p{
+    font-size: 1vw;
+}
+
+.menuItens ul{
+    display: none;
+    align-items: center;
+    position: absolute;
+    top: 102%;
+    left: 0;
+    width: 100%;
+
+    background-color: var(--color-Secundaria);
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+
+}
+
+.subMenu{
+    border-bottom: solid 1px black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    transition: 0.5s;
+   
+}
+
+.subMenu:hover{
+    background-color: var(--color-Quartaria);
+}
+
+.menuItens:hover ul{
+    display: grid;
+    transition: 0.5s;
+}
+
+
+
+
+
+
+
+
 
 @media screen and (max-width: 930px) {
 
@@ -181,6 +230,8 @@ ul{
       align-items: center;
       justify-content: space-around;
       transform: translateX(100%);
+      border-bottom-left-radius: 10px;
+      border-top-left-radius: 10px;
       
       transition: transform 0.5s;
     }
@@ -191,8 +242,6 @@ ul{
     }
 
  
-        
-
     .menuLink{
         display: flex;
         cursor: pointer;
@@ -201,5 +250,13 @@ ul{
     .ul-nav.active{
         transform: translateX(0);
     }
-    
+
+
+    .menuItens p{
+        font-size: 3vw;
+    }
+
 }
+
+
+
