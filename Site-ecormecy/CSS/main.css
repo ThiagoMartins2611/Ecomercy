@@ -5,17 +5,18 @@ main{
 }
 
 .card .content{
-    width: 125px;
+    width: 200px;
     
     display: flex;
     flex-direction: column;
     align-items: center;
 
+    padding: 5px;
 }
 
 .card{
     border: solid 2px black;
-    width: 125px;
+    width: 200px;
     border-radius: 10px;
     display: flex;
     align-items: center;
@@ -30,7 +31,8 @@ main{
 
 
 .card img{
-    width: 100px;
-    height: 150px;
+    width: 150px;
+    height: 200px;
+    border-radius: 10px;
 }
 
