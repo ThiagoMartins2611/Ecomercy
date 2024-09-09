@@ -3,3 +3,34 @@ main{
     height: 100%;
     background-image: linear-gradient(var(--color-Primaria), var(--color-Secundaria));
 }
+
+.card .content{
+    width: 125px;
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.card{
+    border: solid 2px black;
+    width: 125px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.card button{
+    border-radius: 5px;
+    background-color: purple;
+
+    width: 110px;
+}
+
+
+.card img{
+    width: 100px;
+    height: 150px;
+}
+

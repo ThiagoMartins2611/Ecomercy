@@ -5,6 +5,12 @@
 
     box-sizing: border-box;
     color: var(--color-letra);
+
+    
+}
+
+input{
+    color: black;
 }
 
 html, body{
@@ -40,3 +46,4 @@ body{
     url("https://db.onlinewebfonts.com/t/2b3966678f6a1c8c8be202caeb49d95a.ttf")format("truetype"),
     url("https://db.onlinewebfonts.com/t/2b3966678f6a1c8c8be202caeb49d95a.svg#FOT-Yuruka Std")format("svg");
 }
+

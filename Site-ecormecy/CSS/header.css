@@ -16,6 +16,7 @@ header svg{
     display: flex;
     justify-content: space-evenly;
     align-items: center;
+
 }
 
 nav{
@@ -160,16 +161,19 @@ ul{
     padding: 0;
 
     position: relative;
+
+    
 }
 
 .menuItens:hover{
-    flex: 1.2;
+    flex: 1.2; 
     background-color: var(--color-Quartaria);
 }
 
 
 .menuItens p{
     font-size: 1vw;
+    text-shadow: 2px 2px 0px black;
 }
 
 .menuItens ul{
@@ -180,24 +184,29 @@ ul{
     left: 0;
     width: 100%;
 
-    background-color: var(--color-Secundaria);
+    background-color: transparent;
     border-bottom-left-radius: 20px;
     border-bottom-right-radius: 20px;
+    z-index: 1;
 
+    backdrop-filter: blur(4px);
+    border: solid 2px black;
 }
 
 .subMenu{
-    border-bottom: solid 1px black;
     display: flex;
-    align-items: center;
     justify-content: center;
 
+    
     transition: 0.5s;
    
 }
 
+
 .subMenu:hover{
     background-color: var(--color-Quartaria);
+
+   
 }
 
 .menuItens:hover ul{
@@ -221,17 +230,22 @@ ul{
  
     .ul-nav{
       position: absolute;
-      top: 8vh;
+      top: 9vh;
       right: 0;
-      width: 50vw;
+      width: 100vw;
       height: 50vh;
-      background-color: var(--color-Primaria);
+      background-color: transparent;
       flex-direction: column;
       align-items: center;
       justify-content: space-around;
       transform: translateX(100%);
       border-bottom-left-radius: 10px;
       border-top-left-radius: 10px;
+      opacity: 100%;
+      z-index: 2;
+
+      backdrop-filter: blur(4px);
+      border: solid 2px black;
       
       transition: transform 0.5s;
     }
