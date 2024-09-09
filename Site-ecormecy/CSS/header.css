@@ -212,6 +212,8 @@ ul{
 .menuItens:hover ul{
     display: grid;
     transition: 0.5s;
+
+
 }
 
 
@@ -244,7 +246,7 @@ ul{
       opacity: 100%;
       z-index: 2;
 
-      backdrop-filter: blur(4px);
+      backdrop-filter: blur(15px);
       border: solid 2px black;
       
       transition: transform 0.5s;

@@ -1,0 +1,63 @@
+[
+    {
+        "nome": "Mob Pyshico #01",
+        "imagem": "ListarLivros/imagens/mob.jpg",
+        "preco": "R$ 99,99"
+    },
+
+    {
+        "nome": "1Bit Heart",
+        "imagem": "ListarLivros/imagens/1bit.png",
+        "preco": "R$ 89,99"
+    },
+
+    {
+        "nome": "JOJO #11",
+        "imagem": "ListarLivros/imagens/jojo.png",
+        "preco": "R$ 69,99"
+    },
+
+    {
+        "nome": "Chainsaw Man #07",
+        "imagem": "ListarLivros/imagens/chaismaw.png",
+        "preco": "R$ 119,99"
+    },
+
+    {
+        "nome": "Kagurabachi #01",
+        "imagem": "ListarLivros/imagens/kagurabachi.png",
+        "preco": "R$ 59,99"
+    },
+
+    {
+        "nome": "One Piece #62",
+        "imagem": "ListarLivros/imagens/Onepiece.png",
+        "preco": "R$ 99,99"
+    },
+
+    {
+        "nome": "The King of Fighters #4",
+        "imagem": "ListarLivros/imagens/TKOF.png",
+        "preco": "R$ 149,99"
+    },
+
+    {
+        "nome": "Evangelion #13",
+        "imagem": "ListarLivros/imagens/evangelion.png",
+        "preco": "R$ 39,99"
+    },
+
+    {
+        "nome": "Soul Eater #19",
+        "imagem": "ListarLivros/imagens/SoulEater.png",
+        "preco": "R$ 109,99"
+    },
+
+    {
+        "nome": "My Hero Academia",
+        "imagem": "ListarLivros/imagens/MHA.png",
+        "preco": "R$ 99,99"
+    }
+
+    
+]
