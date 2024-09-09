@@ -189,7 +189,7 @@ ul{
     border-bottom-right-radius: 20px;
     z-index: 1;
 
-    backdrop-filter: blur(4px);
+    backdrop-filter: blur(10px);
     border: solid 2px black;
 }
 

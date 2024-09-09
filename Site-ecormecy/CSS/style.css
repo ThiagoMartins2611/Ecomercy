@@ -26,14 +26,17 @@ body{
 
 :root{
     --color-Primaria:  #0C0E3F;
-    --color-Secundaria: #181F52;
-    --color-Terceiraria: #0D113F;
+    --color-Secundaria: #0C1E40;
+    --color-Terceiraria:#1B0C40;
     --color-Quartaria: rgb(173, 173, 173);
 
    
     --color-primariaMaisClara: #31336b;
 
     --color-letra: #FFF653;
+
+    --color-button: #1E229D;
+    
 }
 
 
