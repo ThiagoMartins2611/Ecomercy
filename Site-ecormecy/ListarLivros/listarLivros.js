@@ -5,6 +5,7 @@ function carregar(){
             const main = document.querySelector('#main');
 
             livros.map(livro => {
+
                  const card = document.createElement('div');
                  card.classList.add('card');
 
@@ -30,6 +31,7 @@ function carregar(){
                  content.appendChild(button)
                  card.appendChild(content)
                  main.appendChild(card);
+
                  
 
             })

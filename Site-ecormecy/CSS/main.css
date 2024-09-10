@@ -1,11 +1,16 @@
 main{
     width: 100vw;
-    height: 100%;
-    background-image: linear-gradient(var(--color-Primaria), var(--color-Secundaria));
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
+    align-items: center;
+    gap: 60px;
+    
+    margin-top: 5%;
+    margin-bottom: 5%;
 }
+
+
 
 .card .content{
     width: 200px;
@@ -35,7 +40,7 @@ main{
 
 .card button{
     border-radius: 5px;
-    background-color: var(--color-button);
+    background-color: var(--color-Destaque);
 
     width: 100%;
     height: 30px;
